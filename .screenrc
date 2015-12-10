@@ -1,0 +1,12 @@
+defencoding utf-8
+encoding utf-8
+startup_message off
+autodetach on
+deflog on
+logfile "$HOME/.screen/screen-%Y%m%d-%n.log"
+defscrollback 3000
+vbell off
+hardstatus on
+hardstatus alwayslastline "%{= wk}%-w%{= ck}%n %t%{= wk}%+w %{= wk}%=%{= gk} %y/%m/%d %c "
+#hardstatus alwayslastline "%-w%{= ck}%n %t%{-}%+w"
+
